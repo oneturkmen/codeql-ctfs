@@ -6,7 +6,7 @@ import javascript
  */
 from DataFlow::FunctionNode f, DataFlow::ParameterNode param, DataFlow::PropRead prop
 where 
-	jquery().getAPropertyRead().getAPropertySource() = f and
+	jquery().getAPropertyRead("fn").getAPropertySource() = f and
 	param = f.getLastParameter() and
 	prop = param.getAPropertyRead()
 select prop
