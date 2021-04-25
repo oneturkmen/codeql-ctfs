@@ -4,6 +4,7 @@
 
 - [Finding unsafe jQuery plugins](https://github.com/oneturkmen/codeql-ctfs/tree/master/jquery-plugins)
 - [Finding RCE vulnerabilities in U-Boot loader](https://github.com/oneturkmen/codeql-ctfs/tree/master/uboot)
+- [Finding auth bypass in Go code](https://securitylab.github.com/ctf/go-and-dont-return/)
 
 ## Usage
 
